@@ -2,25 +2,95 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="5dp"
      >
     
         
     <ImageView
         android:id="@+id/image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_alignParentLeft="true"
+        android:background="@drawable/border"
+        android:padding="2dp"
         />
     
-    <TextView
-        android:id="@+id/title"
+    <RelativeLayout
+        android:id="@+id/details"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:gravity="center"
         android:layout_toRightOf="@+id/image"
         android:layout_alignParentTop="true"
-        android:layout_weight="1"/>
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp">
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center|left"
+        android:textColor="#0000ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="1dip"
+        />
+    <ImageView
+        android:id="@+id/img_ratings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ratings"
+        android:layout_below="@+id/title"
+        android:layout_margin="1dip"
+        />
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="#0000ff"
+        android:gravity="center|left"
+        android:text="6.2 miles"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/img_ratings"
+        android:layout_margin="1dip"
+        />
+    
+    <TextView
+        android:id="@+id/last_booking"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="#0000ff"
+        android:gravity="center|left"
+        android:text="Last Booking: 25 mins ago"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/distance"
+        android:layout_margin="1dip"
+        />
+    
+    </RelativeLayout>
+    
+     <TextView
+        android:id="@+id/rupees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center|right"
+        android:textColor="#00ff00"
+        android:text="INR2,924.10"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="1dip"
+        android:layout_below="@+id/details"
+        />
     
 
 </RelativeLayout>

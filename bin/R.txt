@@ -333,8 +333,10 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02002f
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
-int drawable ic_launcher 0x7f020033
-int drawable loading 0x7f020034
+int drawable border 0x7f020033
+int drawable ic_launcher 0x7f020034
+int drawable loading 0x7f020035
+int drawable ratings 0x7f020036
 int id action_bar 0x7f090031
 int id action_bar_activity_content 0x7f090003
 int id action_bar_container 0x7f090030
@@ -348,7 +350,7 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09002e
 int id action_mode_bar_stub 0x7f09002d
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090040
+int id action_settings 0x7f090045
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090014
 int id beginning 0x7f09001b
@@ -356,8 +358,10 @@ int id checkbox 0x7f090029
 int id collapseActionView 0x7f090015
 int id decor_content_parent 0x7f09002f
 int id default_activity_button 0x7f090024
+int id details 0x7f090040
 int id dialog 0x7f090019
 int id disableHome 0x7f09000d
+int id distance 0x7f090042
 int id dropdown 0x7f09001a
 int id edit_query 0x7f090033
 int id end 0x7f09001c
@@ -368,6 +372,8 @@ int id homeAsUp 0x7f09000e
 int id icon 0x7f090026
 int id ifRoom 0x7f090016
 int id image 0x7f090023
+int id img_ratings 0x7f090041
+int id last_booking 0x7f090043
 int id list 0x7f09003f
 int id listMode 0x7f09000a
 int id list_item 0x7f090025
@@ -378,6 +384,7 @@ int id normal 0x7f09000b
 int id progress_circular 0x7f090007
 int id progress_horizontal 0x7f090008
 int id radio 0x7f09002b
+int id rupees 0x7f090044
 int id search_badge 0x7f090035
 int id search_bar 0x7f090034
 int id search_button 0x7f090036
